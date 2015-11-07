@@ -62,15 +62,12 @@ libevent_openssl.pc
 /config.sub
 /configure
 /depcomp
-/config.h
 /config.h.in
 /install-sh
 /libtool
 /ltmain.sh
 /missing
 /stamp-h1
-
-/include/event2/event-config.h
 
 /sample/dns-example
 /sample/event-test
