@@ -65,7 +65,8 @@ static void
 ev_arc4random_buf(void *buf, size_t n)
 {
 #if defined(_EVENT_HAVE_ARC4RANDOM_BUF) && !defined(__APPLE__)
-	return arc4random_buf(buf, n);
+	arc4random_buf(buf, n);
+	return;
 #else
 	unsigned char *b = buf;
 
