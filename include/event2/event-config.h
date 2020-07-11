@@ -447,7 +447,7 @@
 #endif
 
 #ifdef __ANDROID__
-typedef int fd_mask;
+typedef unsigned long fd_mask;
 #endif
 
 /* Define to `int' if <sys/types.h> does not define. */
